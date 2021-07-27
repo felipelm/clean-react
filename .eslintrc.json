@@ -14,7 +14,9 @@
   "plugins": ["react"],
   "rules": {
     "@typescript-eslint/no-unused-vars": "off",
+    "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-unused-vars-experimental": "error",
+    "no-unused-vars": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
